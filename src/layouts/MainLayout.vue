@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated class="bg-purple"> <!-- checkpoint 1 (a) -->
       <q-toolbar>
         <q-btn
           flat
@@ -16,6 +16,7 @@
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
+         <q-btn class="q-ml-sm" flat round dense icon="home" /> <!-- checkpoint 1 (b) -->
       </q-toolbar>
     </q-header>
 
