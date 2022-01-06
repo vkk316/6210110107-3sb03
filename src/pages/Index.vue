@@ -30,7 +30,7 @@
         img-src="https://cdn.pixabay.com/photo/2018/03/22/23/21/cute-3252251_960_720.jpg"
       />
     </q-carousel>
-    <div class="flex flex-center">
+    <div class="q-pa-md flex flex-center">
       <!-- checkpoint 2 : about me button  -->
       <q-btn
         unelevated
