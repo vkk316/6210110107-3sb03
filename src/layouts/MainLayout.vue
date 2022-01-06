@@ -76,7 +76,6 @@ export default defineComponent({
 
     return {
       data,
-      essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
